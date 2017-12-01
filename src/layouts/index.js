@@ -6,7 +6,6 @@ import Helmet from 'react-helmet'
 import './index.css'
 import '../styles/style.styl'
 
-import '../addons/navigation-toggle.js'
 
 const Header = () => (
   <div className="navbar">
@@ -14,27 +13,21 @@ const Header = () => (
       <h1 className="branding">
         <Link to="/">Heikki Salo</Link>
       </h1>
-      <div className="togglenavi">
-        <button id="trigger-overlay" type="button">Open Overlay</button>
-      </div>
+
+      <Navigation />
+
     </div>
   </div>
 )
 
-const Footer = () => (
-  <div id="footer">
-    <div className="container">
-      <div className="branding">
-        <Link to="/">
-          Heikki Salo
-        </Link>
-      </div>
+
+
+const Navigation = () => (
+  <div>
+    <div className="togglenavi">
+      <button onClick={toggleNavi} type="button">Open Overlay</button>
     </div>
-
-
-
     <div className="overlay overlay-door">
-      <button type="button" className="overlay-close">Close</button>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -45,8 +38,21 @@ const Footer = () => (
         </ul>
       </nav>
     </div>
+  </div>
+)
 
 
+
+
+const Footer = () => (
+  <div id="footer">
+    <div className="container">
+      <div className="branding">
+        <Link to="/">
+          Heikki Salo
+        </Link>
+      </div>
+    </div>
   </div>
 )
 
