@@ -7,54 +7,12 @@ import './index.css'
 import '../styles/style.styl'
 
 
-const Header = () => (
-  <div className="navbar">
-    <div className="container">
-      <h1 className="branding">
-        <Link to="/">Heikki Salo</Link>
-      </h1>
-
-      <Navigation />
-
-    </div>
-  </div>
-)
-
-
-
-const Navigation = () => (
-  <div>
-    <div className="togglenavi">
-      <button onClick={toggleNavi} type="button">Open Overlay</button>
-    </div>
-    <div className="overlay overlay-door">
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Clients</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-)
+import Footer from '../utils/footer.js'
+import Header from '../utils/header.js'
 
 
 
 
-const Footer = () => (
-  <div id="footer">
-    <div className="container">
-      <div className="branding">
-        <Link to="/">
-          Heikki Salo
-        </Link>
-      </div>
-    </div>
-  </div>
-)
 
 const TemplateWrapper = ({ children }) => (
   <div>
@@ -65,6 +23,7 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    
     <Header />
 
     <div className="content">
@@ -72,6 +31,7 @@ const TemplateWrapper = ({ children }) => (
     </div>
 
     <Footer />
+
   </div>
 )
 
