@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const Work = props => (
 	<div className="module">
-		<h2 className="organization"><Link to="{props.url}">{props.name}</Link></h2>
+		<h2 className="organization"><a href={props.url} target="_blank">{props.name}</a></h2>
 		<h3 className="position">{props.position}</h3>
 		<div className="time">{props.time}</div>
 		<div className="description">{props.children}</div>
@@ -28,7 +28,7 @@ const IndexPage = () => (
 	</header>
 
 	<ul className="somelinks list-inline">
-		<li><Link to="https://fi.linkedin.com/in/heikkisalo">LINKEDIN</Link></li>
+		<li><a href="https://fi.linkedin.com/in/heikkisalo" target="_blank">LINKEDIN</a></li>
 	</ul>
 
 	<section id="resume" className="container">

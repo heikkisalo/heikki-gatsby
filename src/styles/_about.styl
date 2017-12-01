@@ -1,8 +1,29 @@
 .heikki-image
+	background-color: color-dark
 	background-image: url('/img/heikki-bg-2.jpg')
 	background-size: cover
-	background-position: center center
+	background-position: 25% center
 	color: white
+	position: relative
+	height: 50vh
+	min-height: 450px
+	.info
+		position: absolute
+		bottom: 1rem
+		left: 2rem
+		ul li
+			padding: 0
+			margin: 0
+		@media(min-width: 768px)
+			bottom: 2.5rem
+			left: 3.5rem
+		a
+			color: color-primary
+			text-decoration: none
+	&.heikki2
+		background-image: url('/img/heikki-bg-1.jpg')
+	&.heikki3
+		background-image: url('/img/heikki3.jpg')
 
 .about
 	.container.resume-wrapper.half .module-container
@@ -11,6 +32,14 @@
 			float: left
 			padding: 1rem
 			
+	ul.somelinks
+		text-align: center
+		padding: 60px 1em 40px
+		li
+			list-style: none
+			display: inline-block
+			a
+				text-decoration: none
 
 .module
 	margin: 1em 0
@@ -25,6 +54,8 @@
 	h1,h2,h3,h4
 		margin: .5rem 0
 		padding: 0
+	a
+		text-decoration: none
 	.organization
 		font-size: 1.1rem
 	.position
@@ -35,3 +66,18 @@
 		font-size: 0.8rem
 		line-height: 1.6
 		margin-top: 0.75rem
+
+
+#coffee
+	margin-top: 8rem
+	margin-bottom: 8rem
+	text-align: center
+	a.btn
+		display: inline-block
+		padding: 14px 23px
+		background: color-primary
+		color: color-dark
+		margin: 0.5rem
+		border-radius: 30px
+		text-decoration: none
+		

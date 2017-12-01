@@ -1,9 +1,53 @@
 #footer
 	background: color-dark
 	color: white
-	padding: 8em 1em
+	padding: 8em 1em 2em
 	text-align: center
 	a
 		color: white
 	.branding a
+		width: 50%
+		font-size: 1rem
+		display: inline-block
+		width: auto
+		padding: 15px 20px
+		margin: 0
+		background: color-dark
+		color: white
+		border: 3px solid white
+		text-transform: uppercase
 		text-decoration: none
+		font-weight: 700
+		letter-spacing: 2px
+		transition: all ease 0.15s
+		&:hover
+			background: white
+			color: color-dark
+	
+	.footernav
+		.navigation
+			ul
+				margin: 3em 0 0 0
+				li
+					margin: 0
+					list-style: none
+					display: inline-block
+					a
+						font-size: 0.8rem
+						color: white
+						padding: 15px
+						display: inline-block
+						text-decoration: none
+						height: 56px
+						overflow: hidden
+						transition: all ease 0.15s
+						&::after
+							content: ""
+							display: block
+							background: color-primary
+							height: 2px
+							position: relative
+							top: 18px
+							transition: all ease 0.15s
+						&:hover::after
+							top: 0

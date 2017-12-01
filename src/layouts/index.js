@@ -17,10 +17,10 @@ import Header from '../utils/header.js'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Heikki Salo - Visual Design"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Portfolio' },
+        { name: 'keywords', content: 'Visual design, web design, ui design, ux design, photography' },
       ]}
     />
     
