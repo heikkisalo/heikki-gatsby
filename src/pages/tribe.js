@@ -1,11 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Image from '../utils/image.js'
 import Nextitem from '../utils/nextitem.js'
 
-const Image = props =>
-  <div className="animate">
-    <img src={props.src} className={props.class} alt="" />
-  </div>
 
 const PortfolioPage = () => (
   <div className="single">
@@ -32,7 +29,10 @@ const PortfolioPage = () => (
 
 		<Image src="/img/tribe-8.jpg" class="full" />
 
-    <Nextitem slug="creativitysquads" name="Creativity Squads" image="/img/creativitysquads-1.jpg" />
+    <Nextitem 
+    	slug="creativitysquads"
+    	name="Creativity Squads"
+    	image="/img/creativitysquads-1.jpg" />
 
   </div>
 )

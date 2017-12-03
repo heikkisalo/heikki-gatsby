@@ -11,9 +11,13 @@
 		position: absolute
 		bottom: 1rem
 		left: 2rem
-		ul li
-			padding: 0
-			margin: 0
+		ul
+			margin: 0 0 1rem 1rem
+			serif()
+			li
+				padding: 0
+				margin: 0
+				list-style: none
 		@media(min-width: 768px)
 			bottom: 2.5rem
 			left: 3.5rem
@@ -35,11 +39,16 @@
 	ul.somelinks
 		text-align: center
 		padding: 60px 1em 40px
+		margin: 0
 		li
 			list-style: none
 			display: inline-block
 			a
 				text-decoration: none
+
+.module-container
+	h1
+		padding: 1rem
 
 .module
 	margin: 1em 0

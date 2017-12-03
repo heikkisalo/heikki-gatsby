@@ -18,10 +18,13 @@ const IndexPage = () => (
 		<div className="info">
 			<h1 className="hugetitle">Hello!</h1>
 			<h3>I'm Heikki.</h3>
-			<div>Visual Design | UI Design | Web Design</div>
 		</div>
 
 	</header>
+
+	<section className="whatido">
+		<div>Visual Design | UI Design | Web Design</div>
+	</section>
 
     <div className="portfolioarea">
 

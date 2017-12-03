@@ -1,8 +1,10 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Image from '../utils/image.js'
 import Nextitem from '../utils/nextitem.js'
 
-const Image = props =>
+
+const ImageGif = props =>
   <div className="animate" className={props.containerclass}>
     <img src={props.src} className={props.class} alt="" />
   </div>
@@ -21,7 +23,7 @@ const PortfolioPage = () => (
 
 		<Image src="/img/logos-3.jpg" class="full" />
 
-		<Image src="/img/logos-4.gif" class="full" containerclass="gif" />
+		<ImageGif src="/img/logos-4.gif" class="full" containerclass="gif" />
 
 		<Image src="/img/logos-5.jpg" class="full" />
 

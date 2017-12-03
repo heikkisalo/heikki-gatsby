@@ -1,11 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Image from '../utils/image.js'
 import Nextitem from '../utils/nextitem.js'
 
-const Image = props =>
-  <div className="animate">
-    <img src={props.src} className={props.class} alt="" />
-  </div>
 
 const PortfolioPage = () => (
   <div className="single">
