@@ -16,7 +16,7 @@ const IndexPage = () => (
   	<header className="heikki-image heikki2">
 
 		<div className="info">
-			<h1 className="hugetitle" style={{ fontSize: "7rem", marginBottom: 0 }}>Hello!</h1>
+			<h1 className="hugetitle">Hello!</h1>
 			<h3>I'm Heikki.</h3>
 			<div>Visual Design | UI Design | Web Design</div>
 		</div>

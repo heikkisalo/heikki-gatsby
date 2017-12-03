@@ -151,6 +151,15 @@ const IndexPage = () => (
 
 <div className="clearfix"></div>
 	</section>
+	
+	<section id="coffee" className="container-fluid">
+		<div className="row justify-content-center align-items-center">
+			<div className="col-sm-8 text-center">
+				<h2>What now?</h2>
+				<a href="mailto:heikki@heikki.co" className="btn btn-default">Let's grab a coffee</a>
+			</div>
+		</div>
+	</section>
 
   </div>
 )
