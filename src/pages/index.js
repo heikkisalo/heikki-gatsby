@@ -12,7 +12,7 @@ const PortfolioItem = props => (
 )
 
 const IndexPage = () => (
-  <div className="home">
+  <div id="top" className="home">
   	<header className="heikki-image heikki2">
 
 		<div className="info">

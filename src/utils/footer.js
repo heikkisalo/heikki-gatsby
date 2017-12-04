@@ -7,7 +7,7 @@ const Footer = () => (
   <div id="footer">
     <div className="container">
       <div className="branding">
-        <Link to="/">
+        <Link to="/#top">
           Heikki Salo
         </Link>
       </div>
