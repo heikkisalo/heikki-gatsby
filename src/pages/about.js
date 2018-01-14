@@ -19,7 +19,7 @@ const IndexPage = () => (
 			<h1 className="header name">Heikki Salo</h1>
 			<ul>
 				<li>Graphic Design</li>
-				<li>UX Design</li>
+				<li>UI Design</li>
 				<li>Web Design</li>
 			</ul>
 			<p>Tampere, Finland</p>
@@ -151,6 +151,17 @@ const IndexPage = () => (
 
 <div className="clearfix"></div>
 	</section>
+
+
+
+	<section id="recommendations">
+		<div className="recommendation">
+			<p>"Heikki is a passionate graphic and web designer with a great skill set and his own distinctive style. He's a creative professional who always plays for the team and thinks about both small details and the bigger picture."</p>
+			<span>- Vesa-Matti Ruottinen, Chairman of Tribe Tampere and Creativity Squads</span>
+		</div>
+	</section>
+
+
 	
 	<section id="coffee" className="container-fluid">
 		<div className="row justify-content-center align-items-center">

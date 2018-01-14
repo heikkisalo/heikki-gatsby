@@ -49,7 +49,7 @@ const IndexPage = () => (
 	    >High Peak Ideakuvasto</PortfolioItem>
 
 	    <PortfolioItem
-	    	slug="socnd"
+	    	slug="idrive"
 	    	img="/img/idrive-1.jpg"
 	    >Nokian autokoulu I Drive</PortfolioItem>
 

@@ -30,6 +30,11 @@
 		margin-top: 8rem
 		max-height: 400px
 		overflow: hidden
+		a
+			opacity: 1
+			transition: all ease 0.33s
+			&:active
+				opacity: 0.33
 		.nextitemname
 			display: block
 			text-align: center
@@ -41,7 +46,7 @@
 				font-weight: 300
 				transition: all ease 0.2s
 		@media(max-width:767px)
-			margin-bottom: -6px
+			margin-bottom: -0.4em
 		@media(min-width: 768px)
 			position: relative
 			margin-top: 8rem
