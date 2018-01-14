@@ -22,6 +22,10 @@ const PortfolioPage = () => (
 
 		<Image src="/img/creativitysquads-4.jpg" class="full" />
 
+		<Image src="/img/creativitysquads-5.jpg" class="portrait" />
+
+		<Image src="/img/creativitysquads-6.jpg" class="portrait" />
+
     <Nextitem slug="socnd" name="School of Creativity and Design" image="/img/socnd-1.jpg" />
 
   </div>

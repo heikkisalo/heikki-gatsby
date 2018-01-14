@@ -16,7 +16,7 @@ const PortfolioPage = () => (
 
 		<Image src="/img/socnd-2.jpg" class="full" />
 
-		<Image src="/img/socnd-3.jpg" class="portrait" />
+		<Image src="/img/socnd-3.gif" class="portrait" />
 
 		<Image src="/img/socnd-4.jpg" class="full" />
 

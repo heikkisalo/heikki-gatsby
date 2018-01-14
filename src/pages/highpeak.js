@@ -17,7 +17,15 @@ const PortfolioPage = () => (
 
 		<Image src="/img/highpeak-2.jpg" class="full" />
 
-		<Image src="/img/highpeak-3.jpg" class="portrait" />
+		<Image src="/img/highpeak-15.jpg" class="full" />
+
+		<Image src="/img/highpeak-16.jpg" class="full" />
+
+		<Image src="/img/highpeak-17.jpg" class="full" />
+
+		<Image src="/img/highpeak-18.jpg" class="full" />
+
+		<Image src="/img/highpeak-19.jpg" class="full" />
 
 		<Image src="/img/highpeak-10.jpg" class="full" />
 

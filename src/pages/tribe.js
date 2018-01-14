@@ -25,9 +25,15 @@ const PortfolioPage = () => (
 
 		<Image src="/img/tribe-6.jpg" class="portrait" />
 
-		<Image src="/img/tribe-7.jpg" class="portrait" />
+		<Image src="/img/tribe-7.jpg" class="full" />
 
 		<Image src="/img/tribe-8.jpg" class="full" />
+
+		<Image src="/img/tribe-9.jpg" class="full" />
+
+		<Image src="/img/tribe-11.jpg" class="full" />
+
+		<Image src="/img/tribe-12.jpg" class="full" />
 
     <Nextitem 
     	slug="creativitysquads"
